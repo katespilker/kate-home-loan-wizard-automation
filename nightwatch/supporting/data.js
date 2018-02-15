@@ -1,0 +1,118 @@
+module.exports = {
+    goodData: {
+        goodTest1: {
+            loanType: "Refinance",
+            propertyType: "Condo",
+            city: "New York, NY",
+            price: "$15000000",
+            down: "2000000",
+            addressOne: "341 South Main Street",
+            addressTwo: "Ste 194",
+            addressThree: "Palm Springs, CA 92022",
+            first: "The One & Only",
+            last: "Boss-Hogg",
+            email: "hoggman@gmail.com",
+            fullName: "The One & Only Boss-Hogg" 
+        },
+        goodTest2: {
+            loanType: "Home Purchase",
+            propertyType: "Single Family Home",
+            city: "53542",
+            price: "2000000",
+            down: "$10.00",
+            addressOne: "341 S. Main St.",
+            addressTwo: "Suite 194",
+            addressThree: "Salt Lake City, UT 84101",
+            first: "Dev",
+            last: "Mountain",
+            email: "katespilker7@gmail.com",
+            fullName: "Dev Mountain"
+
+        },
+        goodTest3: {
+            loanType: "Home Equity",
+            propertyType: "Town Home",
+            city: "Washington, DC",
+            price: "2000000",
+            down: "$1500.00",
+            addressOne: "341 Main Street",
+            addressThree: "SLC, UT 84101",
+            first: "Bart J.",
+            last: "Simpson",
+            email: "bestbuds@q.com",
+            fullName: "Bart J. Simpson"
+        },
+        goodTest4: {
+            loanType: "Home Purchase",
+            propertyType: "Multi Family Dwelling",
+            city: "Washington, DC",
+            price: "2000000",
+            down: "$1500.00",
+            addressOne: "341 Main",
+            addressTwo: "basement",
+            addressThree: "SLC, UT 84101",
+            first: "Chris Pee",
+            last: "Bacon",
+            email: "bestbuds@q.com",
+            fullName: "Chris Pee Bacon"
+
+        },
+        goodTest5: {
+            loanType: "Home Equity",
+            propertyType: "Mobile Home",
+            city: "Grand Rapids, MI",
+            price: "$1500.00",
+            down: "20",
+            addressOne: "341 Main Street",
+            addressThree: "SLC, UT 84101",
+            first: "Bart J.",
+            last: "Simpson",
+            email: "bffs@noname.com",
+            fullName: "Bart J. Simpson"
+        },
+        goodTest6: {
+            loanType: "Home Purchase",
+            propertyType: "Single Family Home",
+            city: "Ai, AL",
+            price: "$15000.00",
+            down: "2000",
+            addressOne: "341 Main Street",
+            addressThree: "SLC, UT 84101",
+            first: "Bart J.",
+            last: "Simpson",
+            email: "bestbuds@q.com",
+            fullName: "Bart J. Simpson"
+        },
+
+    },
+    badTest1: {
+        loanType: "Home Equity",
+        propertyType: "Town Home",
+        city: "Janesville, WI 53542",
+        goodCity: "Janesville, WI",
+        price: "$2,100,019.00",
+        goodPrice: "9,000,000",
+        down: "9,000,000",
+        goodDown: "$2,100,019.00",
+        addressOne: "341-S.-Main St.",
+        addressThree: "Salt Lake UT 84101",
+        goodAddressThree: "Salt Lake, UT 84101",
+        first: "Dr. Porky",
+        last: "Pig III",
+        email: "katespilker7@gmail.com",
+        fullName: "Dr. Porky Pig III"
+    },
+    badTest2: {
+        loanType: "Home Equity",
+        propertyType: "Town Home",
+        city: "Washington, D.C. 91010",
+        price: "$1500.00",
+        down: "2000000",
+        addressOne: "341 Main Street",
+        addressThree: "SLC, Ut 84101",
+        first: "Bart J.",
+        last: "Simpson",
+        email: "bestbuds@qcom",
+        fullName: "Bart J. Simpson"
+    },
+}
